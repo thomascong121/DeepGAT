@@ -1,0 +1,16 @@
+Training:
+  n_epoch: 60
+  times: 1
+  lr: 0.0002
+  batch_size: 32
+  feature_size: 2048
+  hidden_size: 1024
+  n_class: 2
+  dropout: 0.5
+  weight_decay: 5e-4
+  number_labelled: 5
+  use_graph: False
+  use_pool: False
+  train_pth: /home/congz3414050/HistoGCN/data/5X
+  checkpoint_dir: /home/congz3414050/HistoGCN/checkpoint
+  train_class_csv: /home/congz3414050/HistoGCN/data/5X/all_data.csv
